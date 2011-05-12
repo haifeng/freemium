@@ -1,0 +1,12 @@
+- id: 1
+  name: free
+  ads: true
+  unlimited: false
+- id: 2
+  name: paid
+  ads: false
+  unlimited: false
+- id: 3
+  name: premium
+  ads: false
+  unlimited: true

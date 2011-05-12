@@ -1,0 +1,4 @@
+<% @transactions.each do |subscription, events| %>
+subscription #<%= subscription.id %> (billing key <%= subscription.credit_card.billing_key %>)
+<%= events.collect{|e| "- #{e.to_s}"}.join("\n") %>
+<% end %>

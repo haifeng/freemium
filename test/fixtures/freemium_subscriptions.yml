@@ -1,0 +1,26 @@
+paid_subscription:
+  id: 1
+  subscribable_id: 1
+  subscribable_type: User
+  subscription_plan_id: 2
+  credit_card_id: 1
+  paid_through: <%= (Date.today + 20).to_s :db %>
+  started_on: <%= (Date.today - 60).to_s :db %>
+  last_transaction_at: 2007-09-15 12:34:56
+free_subscription:
+  id: 2
+  subscribable_id: 2
+  subscribable_type: User
+  subscription_plan_id: 1
+  paid_through: 
+  last_transaction_at:
+  started_on: <%= (Date.today - 60).to_s :db %>
+steves_subscription:
+  id: 3
+  subscribable_id: 4
+  subscribable_type: User
+  subscription_plan_id: 3
+  credit_card_id: 1
+  paid_through: <%= (Date.today + 20).to_s :db %>
+  started_on: <%= (Date.today - 60).to_s :db %>
+  last_transaction_at: 2007-09-15 12:34:56    

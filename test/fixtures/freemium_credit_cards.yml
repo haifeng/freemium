@@ -1,0 +1,21 @@
+bobs_credit_card:
+  id: 1
+  expiration_date: <%= (Time.now + 3.years).to_s :db %>
+  display_number: xxxx-xxxx-xxxx-2222
+  card_type: master
+  billing_key: 1
+  name: Bob
+  address1: 1 Summer street
+  city: Smallville
+  state: MA
+  zip_code: 01010
+steves_credit_card:
+  id: 2
+  expiration_date: <%= (Time.now + 3.years).to_s :db %>
+  display_number: xxxx-xxxx-xxxx-1111
+  card_type: visa
+  name: Steve
+  address1: 1 Summer street
+  city: Smallville
+  state: MA
+  zip_code: 01010

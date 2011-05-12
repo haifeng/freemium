@@ -1,0 +1,48 @@
+free:
+  id: 1
+  redemption_key: free
+  feature_set_id: 1
+  name: Free Access
+  rate_cents: 0
+  duration: <%= nil %>
+basic:
+  id: 2
+  redemption_key: basic
+  feature_set_id: 2
+  name: Basic
+  rate_cents: 1300
+  duration: 1M
+  renewable: true
+premium:
+  id: 3
+  redemption_key: premium
+  feature_set_id: 3
+  name: Premium
+  rate_cents: 3000
+  duration: 1M
+  renewable: true
+beta:
+  id: 4
+  redemption_key: beta
+  feature_set_id: 3
+  name: Beta
+  rate_cents: 0
+  duration: 6M
+  renewable: false
+multi:
+  id: 5
+  redemption_key: multi
+  feature_set_id: 3
+  name: Beta
+  rate_cents: 6000
+  duration: 3M
+  renewable: true
+intro:
+  id: 6
+  redemption_key: intro
+  feature_set_id: 3
+  name: Beta
+  rate_cents: 500
+  duration: 5D
+  renewable: true
+  next_subscription_plan_id: 3
